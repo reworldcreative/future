@@ -84,11 +84,12 @@ ul {
     font-family: 'Raleway';
     padding-top: 208px;
     padding-bottom: 221px;
-
+    /* padding-bottom: 209px; */
 
     border-bottom: 8px solid transparent;
     border-image: linear-gradient(270deg, #590209 0%, rgba(38, 1, 4, 0) 91.67%);
     border-image-slice: 1;
+    background-color: #350208;
 }
 
 
@@ -169,6 +170,15 @@ ul {
     border: none;
 }
 
+.product-btn {
+    padding: 14px 47px;
+}
+
+.btn-icon {
+    /* font-size: 30px; */
+    margin-left: 8px;
+}
+
 .about {
     background-image: url("./img/about-bg.png");
     background-size: cover;
@@ -182,6 +192,7 @@ ul {
     border-bottom: 4px solid transparent;
     border-image: linear-gradient(to right, #590209 0%, rgba(89, 2, 9, 0) 57.27%, rgba(89, 2, 9, 0) 57.27%);
     border-image-slice: 1;
+    background-color: #6a2b1b;
 }
 
 .about-text-wrap {
@@ -223,22 +234,24 @@ ul {
 
 .product-f {
     background-image: url("./img/information-bg1.png");
-    /* background-size: 100%; */
+    background-size: cover;
     background-repeat: no-repeat;
 
     border-bottom: 4px solid transparent;
     border-image: linear-gradient(270deg, rgba(255, 0, 21, 0.5) 0%, rgba(89, 2, 9, 0) 43.65%, rgba(89, 2, 9, 0) 43.65%);
     border-image-slice: 1;
+    background-color: #350107;
 }
 
 .product-s {
     background-image: url("./img/information-bg2.png");
-    /* background-size: 100%; */
+    background-size: cover;
     background-repeat: no-repeat;
 
     border-bottom: 4px solid transparent;
     border-image: linear-gradient(to right, rgba(89, 2, 9, 0.8) 0%, rgba(89, 2, 9, 0) 60.68%, rgba(89, 2, 9, 0) 60.68%);
     border-image-slice: 1;
+    background-color: #6a2b1a;
 }
 
 .product-wrap {
